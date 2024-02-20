@@ -15,23 +15,42 @@ When describing how to synthesize sound, we normally use two representations of 
 
 ![Time and Frequency Domain displayed in MAX/MSP](media/2024-02-20_11-52-17.png)
 
-### Patches in the repository
-##### 1. BEAP V4 Envelope Tester.maxpat - Get to Know an Envelope
+### Patches to demonstrate some aspects of theory
+
+#### 1. BEAP V4 Envelope Tester.maxpat - Get to Know an Envelope
+
 This patch allows you to see the effect of an envelope on the sound. Change the parameters for Attack, Decay, Sustain and Release on the ADSR module.
 
 ![ADSR Envelope](media/221129ADSR.png)
 
 ![ADSR Envelope, diagram from SOS article explaining attack-decay-release-sustain values](media/2024-02-20_10-48-05.png)
 
-##### 2. 221129_FM_Brass_2_4.maxpat - Basic syntheziser
+
+#### 2. 221130LadderWithNoise
+
+This patch introduces noise and filters.
+
+So far, we have used oscillators to generate the basic sounds. But we can also use noise as a foundation to generate our sound. Noise is this hissing  you sometimes hear on an AM or FM radio when you are in between stations. It is actually a blend of many different frequencies. This patch has a noise generator and also has scope and spectral displays to show what is happening.
+
+Furthermore, the patch also contains a *low pass filter* or *LPF* that only lets pass low frequencies and suppresses higher frequencies. The cut-off frequency can be adjusted with the Offset knob. You see the resulting noise on the spectral graph.
+
+![221130LadderFilterWithNoise](media/2024-02-20_12-13-45.png)
+
+
+#### 3. 221129_FM_Brass_2_4.maxpat - Basic syntheziser
+
 ![Basic Synthesiser](media/221129Snapshot.png)
 
 You can save your parameter settings by opening the Snapshot (blue camera icon on the left, see zoomed in image) and then click on new in the list that will open up. You can retrieve snapshots by right-clicking on the item you want to have.
 
-##### 221129 LightSaberV1.maxpat - A Star Wars Sound
+
+#### 4. 221129 LightSaberV1.maxpat - A Star Wars Sound
+
 The patch is rather complex, save it on your computer before playing around with the parameters. You need to start it by pressing the button, switch on the loudspeaker by pressing the object at the bottom and increase the gain on the slider. Then try out different values in the number boxes.
 
-##### 221129TwoOscillators1.maxpat - Two oscillators
+
+#### 5. 221129TwoOscillators1.maxpat - Two oscillators
+
 This patch allows you to see what happens if you have two oscillators running at the same time. Interesting is in particular the case when the frequency of osciallator 1 is nearly equal to that of oscillator 2. Try it out.
 
 **Challenge:** With some modifications to this patch you can also simulate a LFO (low frequency oscillator. For this you need to replace the ```+~``` Object with a ```*~``` Object and modify the scale object to give smaller values for the frequency (```scale 0 127 0 20```). Save the existing patch and then make the changes in the duplicate.
