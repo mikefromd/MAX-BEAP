@@ -44,7 +44,7 @@ Furthermore, the patch also contains a *low pass filter* or *LPF* that only lets
 You can save your parameter settings by opening the Snapshot (blue camera icon on the left, see zoomed in image) and then click on new in the list that will open up. You can retrieve snapshots by right-clicking on the item you want to have.
 
 
-#### 4. Rhythm with Drum Sequencer
+#### 4. Rhythm with Drum Sequencer - Vid8c BEAP.maxpat
 
 ![Sequencer with synthesized drumming sound](media/2024-02-20_12-33-05.png)
 
