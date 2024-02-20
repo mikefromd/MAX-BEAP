@@ -1,22 +1,27 @@
 # Synthesing of Sound and Music
 
 ## Overview
-Today you will learn more about synthesing of sound and music. We will use three tools, all of them are using Cycling'74's MAX at their core. The tools are:
-1. MAX/MSP core objects
-2. MAX/MSP with BEAT modules (the modules are built with MAX/MSP, but the complexity is hidden and you only see the user interface to change the parameters as frequency, filter settings, and more.
-3. Ableton's [Learning Synth](https://learningsynths.ableton.com/). The audio modules used on this website are also created with MAX.
+
+Today we will use BEAP, these are modules build of MAX/MSP objects, that allow for an easier access to synthesising sound.
+
+If you want to get a quick introduction, look at this [tutorial](https://cycling74.com/tutorials/beap-analog-model-curriculum-outline). There is also a more in depth series [A few minutes with BEAP](https://www.youtube.com/playlist?list=PLasl9I6VeCCoT_BfdZjD1AM6McGTQj7mK) or [A few minutes of BEAP on MAX website](https://cycling74.com/tutorials/a-few-minutes-with-beap-tutorial-series) you may want to watch and try out. 
+
+Ableton's [Learning Synth](https://learningsynths.ableton.com/) is another source of knowledge if you want to leearn more about synthesising sound. You find some more information on that website at the end of this post.
+
 
 ## In More Detail
 
+When describing how to synthesize sound, we normally use two representations of sound, the time domain and the frequency domain. They are different views on the same signal. The two main ways to form a sound signal are envelope and filter. The envelope can be visualised using a graph in the time domain, you basically form the amplitudes. The filter are best visualised with a graph in the frequency domain, as you are filtering out/suppressing unwanted frequencies.
+
 ### Patches in the repository
-##### BEAP V4 Envelope Tester.maxpat - Get to Know an Envelope
+##### 1. BEAP V4 Envelope Tester.maxpat - Get to Know an Envelope
 This patch allows you to see the effect of an envelope on the sound. Change the parameters for Attack, Decay, Sustain and Release on the ADSR module.
 
 ![ADSR Envelope](media/221129ADSR.png)
 
 ![ADSR Envelope, diagram from SOS article explaining attack-decay-release-sustain values](media/2024-02-20_10-48-05.png)
 
-##### 221129_FM_Brass_2_4.maxpat - Basic syntheziser
+##### 2. 221129_FM_Brass_2_4.maxpat - Basic syntheziser
 ![Basic Synthesiser](media/221129Snapshot.png)
 
 You can save your parameter settings by opening the Snapshot (blue camera icon on the left, see zoomed in image) and then click on new in the list that will open up. You can retrieve snapshots by right-clicking on the item you want to have.
