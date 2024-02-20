@@ -14,6 +14,8 @@ This patch allows you to see the effect of an envelope on the sound. Change the 
 
 ![ADSR Envelope](media/221129ADSR.png)
 
+[ADSR Envelope, diagram from SOS article explaining attack-decay-release-sustain values](2024-02-20_10-48-05.png)
+
 ##### 221129_FM_Brass_2_4.maxpat - Basic syntheziser
 ![Basic Synthesiser](media/221129Snapshot.png)
 
