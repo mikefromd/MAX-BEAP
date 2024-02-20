@@ -1,7 +1,5 @@
 # Synthesing of Sound and Music
 
-Materials for session on 29.11.22
-
 ## Overview
 Today you will learn more about synthesing of sound and music. We will use three tools, all of them are using Cycling'74's MAX at their core. The tools are:
 1. MAX/MSP core objects
@@ -66,3 +64,7 @@ A synthesiser is a very powerful tool to create sounds. The Playground gives you
 - [A History of Synths in Cinema: Recreating Famous Sounds with eDNA Earth](https://youtu.be/AyXP4dOQsG0)
 - [Sound Clips out of Daily Life](https://www.soundsofchanges.eu/?s=police) - You can use these clips as a model to synthesise the (simple) sounds with the tools here available. Furthermore, you can download the wav files and then use them with the playlist~ object inside your patches.
 - [Telephone - Change to dial service in 1936, video with some signals for telephones](https://laughingsquid.com/1936-att-introduction-to-rotary-dial-telephones/)
+
+##### Change History
+- 221129 Original version on mibrs.github.io
+- 240220 Revised content
