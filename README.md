@@ -9,11 +9,22 @@ If you want to get a quick introduction, look at this [tutorial](https://cycling
 Ableton's [Learning Synth](https://learningsynths.ableton.com/) is another source of knowledge if you want to leearn more about synthesising sound. You find some more information on that website at the end of this post.
 
 
-## In More Detail
+## Overview
 
-When describing how to synthesize sound, we normally use two representations of sound, the time domain and the frequency domain. They are different views on the same signal. The two main ways to form a sound signal are envelope and filter. The envelope can be visualised using a graph in the time domain, you basically form the amplitudes. The filter are best visualised with a graph in the frequency domain, as you are filtering out/suppressing unwanted frequencies.
+When describing how to synthesize sound, we normally use two representations of sound, the time domain and the frequency domain. They are different views on the same signal. The two main ways to form a sound signal are envelope and filter. 
+
+The envelope can be visualised using a graph in the time domain, you basically form the amplitudes. Patch 1 demonstrates how this happens.
+
+The filter are best visualised with a graph in the frequency domain, as you are filtering out/suppressing unwanted frequencies. This is demonstrated in Patch 2 here. 
 
 ![Time and Frequency Domain displayed in MAX/MSP](media/2024-02-20_11-52-17.png)
+
+This post also introduces noise as another basic sound you can use to synthezise your sound. See Patch 2 how to do this.
+
+The Patches 3 and 4 are then actual synthezisers you can play with.
+
+Pathces 5 and 6 use again MAX/MSP, one is a synthezised light saber (STAR WARS), the other is another patch to visualise how to oscillator signals can be blended and what happens in the time and frequency domain.
+
 
 ### Patches to demonstrate some aspects of theory
 
@@ -50,13 +61,15 @@ You can save your parameter settings by opening the Snapshot (blue camera icon o
 
 This patch tries to emulate the sound of a drum. It incorporates two oscillators and noise, all mixed and refined. There are also two filters that allow you to tweak the signal further. A trigger module allows you then to set the rhythm of your sound. The triggers are also passed through an attack-decay gate so that you can form the sound further.
 
+**IMPORTANT:** Do not forget to activate the `Global Transport` by clicking on the button at the left bottom of the MAX window, beside the `Audio ON/OFF`.
 
-#### 4. 221129 LightSaberV1.maxpat - A Star Wars Sound
+
+#### 5. 221129 LightSaberV1.maxpat - A Star Wars Sound
 
 The patch is rather complex, save it on your computer before playing around with the parameters. You need to start it by pressing the button, switch on the loudspeaker by pressing the object at the bottom and increase the gain on the slider. Then try out different values in the number boxes.
 
 
-#### 5. 221129TwoOscillators1.maxpat - Two oscillators
+#### 6. 221129TwoOscillators1.maxpat - Two oscillators
 
 This patch allows you to see what happens if you have two oscillators running at the same time. Interesting is in particular the case when the frequency of osciallator 1 is nearly equal to that of oscillator 2. Try it out.
 
