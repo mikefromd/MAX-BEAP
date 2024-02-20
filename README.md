@@ -4,6 +4,8 @@
 
 Today we will use BEAP, these are modules build of MAX/MSP objects, that allow for an easier access to synthesising sound.
 
+![Basic BEAP Patch](media/2024-02-20_13-07-43.png)
+
 If you want to get a quick introduction, look at this [tutorial](https://cycling74.com/tutorials/beap-analog-model-curriculum-outline). There is also a more in depth series [A few minutes with BEAP](https://www.youtube.com/playlist?list=PLasl9I6VeCCoT_BfdZjD1AM6McGTQj7mK) or [A few minutes of BEAP on MAX website](https://cycling74.com/tutorials/a-few-minutes-with-beap-tutorial-series) you may want to watch and try out. 
 
 Ableton's [Learning Synth](https://learningsynths.ableton.com/) is another source of knowledge if you want to leearn more about synthesising sound. You find some more information on that website at the end of this post.
