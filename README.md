@@ -36,6 +36,8 @@ This patch allows you to see the effect of an envelope on the sound. Change the 
 
 ![ADSR Envelope](media/221129ADSR.png)
 
+The following diagram is taken from the article [Envelops, Gates and Triggers](https://www.soundonsound.com/techniques/envelopes-gates-triggers) and explains in a visual way how the four parameters are shaping the envelope of a signal.
+
 ![ADSR Envelope, diagram from SOS article explaining attack-decay-release-sustain values](media/2024-02-20_10-48-05.png)
 
 
