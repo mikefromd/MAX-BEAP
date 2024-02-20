@@ -44,6 +44,13 @@ Furthermore, the patch also contains a *low pass filter* or *LPF* that only lets
 You can save your parameter settings by opening the Snapshot (blue camera icon on the left, see zoomed in image) and then click on new in the list that will open up. You can retrieve snapshots by right-clicking on the item you want to have.
 
 
+#### 4. Rhythm with Drum Sequencer
+
+![Sequencer with synthesized drumming sound](media/2024-02-20_12-33-05.png)
+
+This patch tries to emulate the sound of a drum. It incorporates two oscillators and noise, all mixed and refined. There are also two filters that allow you to tweak the signal further. A trigger module allows you then to set the rhythm of your sound. The triggers are also passed through an attack-decay gate so that you can form the sound further.
+
+
 #### 4. 221129 LightSaberV1.maxpat - A Star Wars Sound
 
 The patch is rather complex, save it on your computer before playing around with the parameters. You need to start it by pressing the button, switch on the loudspeaker by pressing the object at the bottom and increase the gain on the slider. Then try out different values in the number boxes.
