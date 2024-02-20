@@ -1,4 +1,4 @@
-# Synthesing of Sound and Music
+# Synthesizing of Sound
 
 ## Overview
 
