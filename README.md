@@ -13,6 +13,8 @@ Ableton's [Learning Synth](https://learningsynths.ableton.com/) is another sourc
 
 When describing how to synthesize sound, we normally use two representations of sound, the time domain and the frequency domain. They are different views on the same signal. The two main ways to form a sound signal are envelope and filter. The envelope can be visualised using a graph in the time domain, you basically form the amplitudes. The filter are best visualised with a graph in the frequency domain, as you are filtering out/suppressing unwanted frequencies.
 
+![Time and Frequency Domain displayed in MAX/MSP](media/2024-02-20_11-52-17.png)
+
 ### Patches in the repository
 ##### 1. BEAP V4 Envelope Tester.maxpat - Get to Know an Envelope
 This patch allows you to see the effect of an envelope on the sound. Change the parameters for Attack, Decay, Sustain and Release on the ADSR module.
