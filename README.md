@@ -13,7 +13,7 @@ Ableton's [Learning Synth](https://learningsynths.ableton.com/) is another sourc
 
 ## Overview
 
-When describing how to synthesize sound, we normally use two representations of sound, the time domain and the frequency domain. They are different views on the same signal. The two main ways to form a sound signal are envelope and filter. 
+When describing how to synthesize sound, we normally use two representations of sound, the time domain and the frequency domain. They are different views on the same signal ([Domains](https://elvers.us/perception/soundWave/)). The two main ways to form a sound signal are envelope and filter. 
 
 The envelope can be visualised using a graph in the time domain, you basically form the amplitudes. Patch 1 demonstrates how this happens.
 
